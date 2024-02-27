@@ -8,7 +8,7 @@ function MoreOptions() {
       <div class="mt-4 mb-10 font-inter text-[32px] font-normal leading-[2.75rem] tracking-normal text-left text-[#2C384A]">
         Related deals you might like for
       </div>
-      <div class="grid gap-4 max-lg:grid-cols-1 w-full max-xl:grid-cols-2 max-2xl:grid-cols-3">
+      <div class="grid grid-cols-3 gap-4 max-lg:grid-cols-1 w-full max-xl:grid-cols-2">
         {builderdata.map((item) => {
           const {
             image,
